@@ -107,7 +107,7 @@ namespace recsc
                         item.startFlag = false;
                     }
                        
-                    Process.Start(@"nircmd.exe", "muteappvolume /"+ item.ptv.Id.ToString()+" 1");//ミュートしてないっぽい
+                    Process.Start(@"nircmd.exe", "muteappvolume /"+ item.ptv.Id.ToString()+" 1");//ミュート
                 }
                 if (now.CompareTo(item.recTime)>0 && item.startFlag)//日付更新
                 {
