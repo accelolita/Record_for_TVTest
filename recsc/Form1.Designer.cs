@@ -53,6 +53,7 @@
             this.nfiRecsec = new System.Windows.Forms.NotifyIcon(this.components);
             this.recSpanPicker = new System.Windows.Forms.DateTimePicker();
             this.roadButton = new System.Windows.Forms.Button();
+            this.btnMute = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSc)).BeginInit();
             this.SuspendLayout();
             // 
@@ -266,10 +267,18 @@
             this.roadButton.UseVisualStyleBackColor = true;
             this.roadButton.Click += new System.EventHandler(this.roadButton_Click);
             // 
+            // btnMute
+            // 
+            resources.ApplyResources(this.btnMute, "btnMute");
+            this.btnMute.Name = "btnMute";
+            this.btnMute.UseVisualStyleBackColor = true;
+            this.btnMute.Click += new System.EventHandler(this.btnMute_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnMute);
             this.Controls.Add(this.recSpanPicker);
             this.Controls.Add(this.newCh);
             this.Controls.Add(this.tbChName);
@@ -319,6 +328,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn recTimeAll;
         private System.Windows.Forms.DataGridViewTextBoxColumn recSpan;
         private System.Windows.Forms.Button roadButton;
+        private System.Windows.Forms.Button btnMute;
     }
 }
 

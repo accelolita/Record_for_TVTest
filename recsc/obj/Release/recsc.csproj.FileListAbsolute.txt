@@ -9,3 +9,19 @@ D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc
 D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\se-NO\recsc.resources.dll
 D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.exe
 D:\Users\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.pdb
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\recsc.exe.config
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\recsc.exe
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\recsc.pdb
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Release\se-NO\recsc.resources.dll
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.csprojAssemblyReference.cache
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.Form1.resources
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.Properties.Resources.resources
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.Form1.se-NO.resources
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.csproj.GenerateResource.cache
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.csproj.CoreCompileInputs.cache
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\se-NO\recsc.resources.dll
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.exe
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.pdb
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\bin\Release\recsc.exe.config
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Release\recsc.exe
+D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Release\recsc.pdb

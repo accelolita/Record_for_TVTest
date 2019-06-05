@@ -106,7 +106,8 @@ namespace recsc
                         btnKill.Enabled = true;
                         item.startFlag = false;
                     }
-                    
+                       
+                    Process.Start(@"nircmd.exe", "muteappvolume /"+ item.ptv.Id.ToString()+" 1");//ミュートしてないっぽい
                 }
                 if (now.CompareTo(item.recTime)>0 && item.startFlag)//日付更新
                 {
@@ -321,6 +322,11 @@ namespace recsc
             setting = Settings.ReadSettings();
             scList = setting.scList;
             ResetGrid();
+        }
+
+        private async void btnMute_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"nircmd.exe","mutesysvolume 2");  
         }
     }
 }

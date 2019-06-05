@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;recStart.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="btnKill.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -168,7 +168,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnKill.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="btnTest.Location" type="System.Drawing.Point, System.Drawing">
     <value>583, 172</value>
@@ -192,7 +192,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnTest.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="tsText.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
@@ -216,7 +216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tsText.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="dTP.CustomFormat" xml:space="preserve">
     <value>M/d  dddd H:mm:ss</value>
@@ -244,7 +244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dTP.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="lbTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -274,56 +274,11 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbTime.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="chName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="chNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="chWeek.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="chTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="sycle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="recTimeAll.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="recSpan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 239</value>
-  </data>
-  <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>646, 475</value>
-  </data>
-  <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Name" xml:space="preserve">
-    <value>dgvSc</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <metadata name="chName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -384,6 +339,30 @@
   <data name="recSpan.HeaderText" xml:space="preserve">
     <value>録画時間</value>
   </data>
+  <data name="dgvSc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 239</value>
+  </data>
+  <data name="dgvSc.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dgvSc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>646, 475</value>
+  </data>
+  <data name="dgvSc.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Name" xml:space="preserve">
+    <value>dgvSc</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvSc.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="lbTest.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -406,7 +385,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbTest.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="cbSycle.Items" xml:space="preserve">
     <value>毎週</value>
@@ -439,7 +418,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbSycle.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="cbChannel.Items" xml:space="preserve">
     <value>NHK総合</value>
@@ -517,7 +496,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbChannel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="tbChName.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 213</value>
@@ -538,7 +517,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbChName.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="newCh.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 211</value>
@@ -562,7 +541,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;newCh.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="nfiRecsec.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>108, 17</value>
@@ -895,7 +874,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;recSpanPicker.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="roadButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -922,7 +901,31 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;roadButton.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
+  </data>
+  <data name="btnMute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 48</value>
+  </data>
+  <data name="btnMute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 72</value>
+  </data>
+  <data name="btnMute.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnMute.Text" xml:space="preserve">
+    <value>ミュート</value>
+  </data>
+  <data name="&gt;&gt;btnMute.Name" xml:space="preserve">
+    <value>btnMute</value>
+  </data>
+  <data name="&gt;&gt;btnMute.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMute.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMute.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
