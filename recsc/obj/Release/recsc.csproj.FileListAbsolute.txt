@@ -22,6 +22,3 @@ D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\r
 D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\se-NO\recsc.resources.dll
 D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.exe
 D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Release\recsc.pdb
-D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\bin\Release\recsc.exe.config
-D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Release\recsc.exe
-D:\Users\fyu1yh\My Documents\Visual Studio 2015\Projects\recsc\recsc\obj\Release\recsc.pdb

@@ -29,13 +29,17 @@ namespace recsc
             ResetGrid();
             dTP.Value = DateTime.Now.AddDays(1);
 
+            //録画時刻でソート
+            DataGridViewColumn newColumn = dgvSc.Columns[5];
+            dgvSc.Sort(newColumn, ListSortDirection.Ascending);
+
             //タイマースタート
             timer1.Start();
             //値変化のイベント登録
             this.dgvSc.CellValueChanged += new DataGridViewCellEventHandler(this.dgvSc_CellValueChanged);
 
         }
-
+        
         private void ResetGrid()
         { 
             int count = 0;
@@ -87,6 +91,12 @@ namespace recsc
             Schedule delSc = null;
             DateTime now = DateTime.Now;
             lbTime.Text = now.ToString();
+            //次の予約まで
+            DateTime minSc = scList.Min(time => time.recTime);
+            TimeSpan remainTime = minSc.Subtract(now);
+            lbNextTime.Text = remainTime.ToString(@"'次は'hh'時間'mm'分'ss'秒後'");
+            //ソートフラグ
+            bool bSort = false;
             foreach (var item in scList)
             {
                 if (now.ToString()==item.recTime.AddSeconds(-30).ToString() && //十秒前      
@@ -124,11 +134,16 @@ namespace recsc
                     }         
                     if (now.CompareTo(item.recTime) < 0)
                     {
+                        //ソートしろ
+                        //scList.Sort((a, b) => a.recTime.CompareTo(b.recTime));
+                        bSort = true;
                         ResetGrid();
+                        //ソート
+                        //DataGridViewColumn newColumn = dgvSc.Columns[5];
+                        //dgvSc.Sort(newColumn, ListSortDirection.Ascending);
                     }
                 }
-                if (item.recTime.Add(item.recSpan).ToString() == now.ToString() &&
-                    !item.startFlag)
+                if (now.CompareTo(item.recTime.Add(item.recSpan)) == 1 && !item.startFlag)
                 {
                     item.startFlag = true;
                     //終了処理一秒待機
@@ -156,6 +171,11 @@ namespace recsc
             {
                 dgvSc.Rows.Remove(dgvSc.Rows[scList.IndexOf(delSc)]);
                 scList.Remove(delSc);
+                ResetGrid();
+            }
+            if (false)//bSort
+            {
+                scList.Sort((a, b) => a.recTime.CompareTo(b.recTime));//名前がずれる
                 ResetGrid();
             }
         }
@@ -255,12 +275,23 @@ namespace recsc
         private void newCh_Click(object sender, EventArgs e)
         {//新しい表と新しい録画予約scList追加
             TimeSpan ts = recSpanPicker.Value.Subtract(new DateTime(2000,1,1));
-            Schedule sc=new Schedule(tbChName.Text,
-                (Channels)Enum.Parse(typeof(Channels), cbChannel.Text),
-                dTP.Value, dTP.Value.DayOfWeek,ts);          
+            Schedule sc=new Schedule(
+                tbChName.Text,                                          //番組名
+                (Channels)Enum.Parse(typeof(Channels),cbChannel.Text),  //チャンネル
+                dTP.Value,                                              //録画時刻 
+                dTP.Value.DayOfWeek,                                    //曜日
+                ts);                                                    //録画時間
+            //録画表に追加
             dgvSc.Rows.Add(tbChName.Text, cbChannel.Text,dTP.Value.DayOfWeek,
                 dTP.Value.ToLongTimeString(), cbSycle.Text, dTP.Value, sc.recSpan);
+            //録画リストに追加
             scList.Add(sc);
+            //ソート
+            scList.Sort((a,b)=> a.recTime.CompareTo(b.recTime));
+
+            DataGridViewColumn newColumn = dgvSc.Columns[5];
+            dgvSc.Sort(newColumn, ListSortDirection.Ascending);
+            //ResetGrid();
         }
 
         private void dgvSc_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
@@ -324,10 +355,22 @@ namespace recsc
             ResetGrid();
         }
 
-        private async void btnMute_Click(object sender, EventArgs e)
+        private void btnMute_Click(object sender, EventArgs e)
         {
             Process.Start(@"nircmd.exe","mutesysvolume 2");  
         }
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            //Form1の高さ765
+            //Form1の幅686
+            //dgvScの高さ565
+            //dgvScの幅646
+            dgvSc.Height = 565 + (this.Size.Height - 765);
+            dgvSc.Width = 646 + (this.Size.Width - 686);
+
+        }
+
     }
 }
  

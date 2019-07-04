@@ -34,3 +34,16 @@ C:\Users\fukum\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\se-NO\recsc.
 D:\Users\fukumashi\OneDrive\プロジェクト\C#\recsc\recsc\bin\Debug\se-NO\recsc.resources.dll
 D:\Users\fukumashi\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.Form1.se-NO.resources
 D:\Users\fukumashi\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\se-NO\recsc.resources.dll
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Debug\recsc.exe.config
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Debug\recsc.exe
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Debug\recsc.pdb
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\bin\Debug\se-NO\recsc.resources.dll
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.Form1.resources
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.Properties.Resources.resources
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.Form1.se-NO.resources
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.csproj.GenerateResource.cache
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.csproj.CoreCompileInputs.cache
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\se-NO\recsc.resources.dll
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.exe
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.pdb
+D:\ユーザ\SIMPSONMAN\OneDrive\プロジェクト\C#\recsc\recsc\obj\Debug\recsc.csprojAssemblyReference.cache
